@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    IBOutlet UITextField *usernameField;
+    IBOutlet UITextField *passwordField;
+    IBOutlet UIBarButtonItem *nextButton;
+}
+
+-(IBAction)editingChanged;
 
 @end
+
+

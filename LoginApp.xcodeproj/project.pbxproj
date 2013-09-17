@@ -17,13 +17,13 @@
 		FD4C67B617E7A49A0058B309 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4C67B517E7A49A0058B309 /* Default@2x.png */; };
 		FD4C67B817E7A49A0058B309 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4C67B717E7A49A0058B309 /* Default-568h@2x.png */; };
 		FD4C67BB17E7A49A0058B309 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4C67B917E7A49A0058B309 /* MainStoryboard_iPhone.storyboard */; };
-		FD4C67BE17E7A49A0058B309 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4C67BC17E7A49A0058B309 /* MainStoryboard_iPad.storyboard */; };
 		FD4C67C117E7A49A0058B309 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C67C017E7A49A0058B309 /* ViewController.m */; };
 		FD4C67C917E7A49A0058B309 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4C67C817E7A49A0058B309 /* SenTestingKit.framework */; };
 		FD4C67CA17E7A49A0058B309 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4C67A117E7A49A0058B309 /* UIKit.framework */; };
 		FD4C67CB17E7A49A0058B309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4C67A317E7A49A0058B309 /* Foundation.framework */; };
 		FD4C67D317E7A49A0058B309 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD4C67D117E7A49A0058B309 /* InfoPlist.strings */; };
 		FD4C67D617E7A49A0058B309 /* LoginAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C67D517E7A49A0058B309 /* LoginAppTests.m */; };
+		FD4C67E317E7C86F0058B309 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C67E217E7C86F0058B309 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,6 @@
 		FD4C67B517E7A49A0058B309 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FD4C67B717E7A49A0058B309 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FD4C67BA17E7A49A0058B309 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		FD4C67BD17E7A49A0058B309 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		FD4C67BF17E7A49A0058B309 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FD4C67C017E7A49A0058B309 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FD4C67C717E7A49A0058B309 /* LoginAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +59,8 @@
 		FD4C67D217E7A49A0058B309 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FD4C67D417E7A49A0058B309 /* LoginAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginAppTests.h; sourceTree = "<group>"; };
 		FD4C67D517E7A49A0058B309 /* LoginAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAppTests.m; sourceTree = "<group>"; };
+		FD4C67E117E7C86F0058B309 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FD4C67E217E7C86F0058B309 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +123,8 @@
 				FD4C67B017E7A49A0058B309 /* AppDelegate.h */,
 				FD4C67B117E7A49A0058B309 /* AppDelegate.m */,
 				FD4C67B917E7A49A0058B309 /* MainStoryboard_iPhone.storyboard */,
-				FD4C67BC17E7A49A0058B309 /* MainStoryboard_iPad.storyboard */,
+				FD4C67E117E7C86F0058B309 /* SecondViewController.h */,
+				FD4C67E217E7C86F0058B309 /* SecondViewController.m */,
 				FD4C67BF17E7A49A0058B309 /* ViewController.h */,
 				FD4C67C017E7A49A0058B309 /* ViewController.m */,
 				FD4C67A817E7A49A0058B309 /* Supporting Files */,
@@ -239,7 +241,6 @@
 				FD4C67B617E7A49A0058B309 /* Default@2x.png in Resources */,
 				FD4C67B817E7A49A0058B309 /* Default-568h@2x.png in Resources */,
 				FD4C67BB17E7A49A0058B309 /* MainStoryboard_iPhone.storyboard in Resources */,
-				FD4C67BE17E7A49A0058B309 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +278,7 @@
 				FD4C67AE17E7A49A0058B309 /* main.m in Sources */,
 				FD4C67B217E7A49A0058B309 /* AppDelegate.m in Sources */,
 				FD4C67C117E7A49A0058B309 /* ViewController.m in Sources */,
+				FD4C67E317E7C86F0058B309 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,14 +315,6 @@
 				FD4C67BA17E7A49A0058B309 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		FD4C67BC17E7A49A0058B309 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD4C67BD17E7A49A0058B309 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		FD4C67D117E7A49A0058B309 /* InfoPlist.strings */ = {
